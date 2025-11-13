@@ -1,0 +1,10 @@
+# Competitor Report
+
+**Query:** List competitors and their busiest hours, suggest 3 actions
+
+## AI Summary
+
+<function answer at 0x00000250475625C0>
+
+
+[WeasyPrint was unavailable: OSError("cannot load library 'C:\\Program Files\\Tesseract-OCR\\libgobject-2.0-0.dll': error 0x7e")]

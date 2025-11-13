@@ -1,0 +1,21 @@
+import pandas as pd
+import os
+
+# Ensure the data folder exists
+os.makedirs("data", exist_ok=True)
+
+# Sample Koramangala clothing stores (fictional but realistic)
+data = [
+    [1, "Trends Koramangala", "80 Feet Road, Koramangala, Bangalore", 12.9352, 77.6158],
+    [2, "Lifestyle Store", "Oasis Mall, Koramangala, Bangalore", 12.9349, 77.6114],
+    [3, "Max Fashion", "Sony World Signal, Koramangala, Bangalore", 12.9358, 77.6213],
+    [4, "Pantaloons", "Forum Mall road, Koramangala, Bangalore", 12.9344, 77.6119],
+    [5, "Zudio Koramangala", "Ejipura Main Road, Koramangala, Bangalore", 12.9371, 77.6225],
+    [6, "Reliance Trends Youth", "4th Block, Koramangala, Bangalore", 12.9378, 77.6137],
+]
+
+df = pd.DataFrame(data, columns=["store_id", "name", "address", "lat", "lon"])
+
+df.to_csv("data/stores.csv", index=False)
+
+print("Created data/stores.csv successfully!")
