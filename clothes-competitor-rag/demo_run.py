@@ -12,5 +12,5 @@ os.system("python src/embeddings_faiss.py")
 from src.rag_query import answer
 resp = answer("List competitors and their busiest hours, suggest 3 actions")
 print(resp)
-from src.report_gen import make_report
+from src.report_gen_reportlab import make_report
 make_report("List competitors and their busiest hours", resp, out_pdf="demo_report.pdf")
