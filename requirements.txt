@@ -1,0 +1,3 @@
+# Use a real LLM client when integrating (the examples use a fake LLM wrapper)
+python-dotenv
+requests

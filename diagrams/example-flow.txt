@@ -1,0 +1,6 @@
+digraph LangGraphExample {
+  read_input -> summarize;
+  summarize -> enrich;
+  enrich -> summarize;
+  summarize -> finalize;
+}
