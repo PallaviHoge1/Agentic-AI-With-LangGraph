@@ -1,0 +1,6 @@
+langgraph
+langchain
+ollama
+python-dotenv
+notebook==6.1.5
+pytest
