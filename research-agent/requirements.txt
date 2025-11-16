@@ -1,0 +1,12 @@
+langgraph
+langchain
+chromadb
+faiss-cpu
+sentence-transformers
+requests
+beautifulsoup4
+pypdf
+python-dotenv
+PyMuPDF
+fastapi
+uvicorn
